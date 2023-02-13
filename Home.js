@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { connect } from 'react-redux';
 import { useDispatch } from 'react-redux';
-import { addStockToWatchlist } from './state/ActionCreater/ActionCreater'
+import { addStockToWatchlist } from './ActionCreater'
 const Home = ({ stocks }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [companies, setCompanies] = useState([]);
