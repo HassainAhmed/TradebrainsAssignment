@@ -1,16 +1,19 @@
 export const addStockToWatchlist = (symbol,name) => {
   return (dispatch) => {
   dispatch({
-  type: "addStockToWatchlist",
+  type: "ADD_STOCK_TO_WATCHLIST",
   payload: symbol,name
   });
   };
   };
+  export const ="ADD_STOCK_TO_WATCHLIST";
   
-  export const removeStockFromWatchlist = (symbol,name) => {
+  export const ="REMOVE_STOCK_FROM_WATCHLIST";
+ 
+export const removeStockFromWatchlist = (symbol,name) => {
   return (dispatch) => {
   dispatch({
-  type: "removeStockFromWatchlist",
+  type: "REMOVE_STOCK_FROM_WATCHLIST",
   payload: Symbol,name
   });
   };
