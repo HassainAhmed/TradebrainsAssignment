@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { connect, useSelector } from 'react-redux';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import {removeStockFromWatchlist} from './State/ActionCreaters/ActionCreaters'
+import {removeStockFromWatchlist} from './ActionCreaters'
 const Watchlist = () => {
   const [watchlist, setWatchlist] = useState([]);
   const NewStock=useSelector(state=>state.NewStock)
