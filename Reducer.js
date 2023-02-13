@@ -1,8 +1,8 @@
 const Work = (state = [], action) => {
   switch (action.type) {
-    case "addStockToWatchlist":
+    case "ADD_STOCK_TO_WATCHLIST":
       return [...state, action.payload];
-    case "removeStockFromWatchlist":
+    case "REMOVE_STOCK_FROM_WATCHLIST":
       return state.filter((stock) => {
         return stock.symbol !== action.payload.symbol;
       });
