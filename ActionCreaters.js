@@ -1,3 +1,4 @@
+export const ="ADD_STOCK_TO_WATCHLIST";
 export const addStockToWatchlist = (symbol,name) => {
   return (dispatch) => {
   dispatch({
@@ -6,7 +7,6 @@ export const addStockToWatchlist = (symbol,name) => {
   });
   };
   };
-  export const ="ADD_STOCK_TO_WATCHLIST";
   
   export const ="REMOVE_STOCK_FROM_WATCHLIST";
  
