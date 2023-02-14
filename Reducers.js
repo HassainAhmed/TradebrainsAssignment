@@ -1,4 +1,4 @@
-import { ActionTypes } from "../ActionCreater/ActionTypes";
+import { ActionTypes } from "./ActionTypes";
 
 const initialState={
    symbol:[{
