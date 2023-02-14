@@ -50,7 +50,7 @@ const Watchlist = () => {
               <td>{stock['2. name']}</td>
               <td>N/A</td>
               <td>
-                {<button
+                {<button className="btn btn-danger"
                 onClick={
                 (name,symbol) => {
         return dispatch (removeStockFromWatchlist(stock['1.symbol'],stock['2.name']))
